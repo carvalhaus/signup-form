@@ -1,12 +1,12 @@
-import { useState } from "react";
+import Slogan from "./components/Slogan";
 import "./App.css";
+import Main from "./components/Main";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>TESTE</h1>
+      <Slogan />
+      <Main />
     </>
   );
 }

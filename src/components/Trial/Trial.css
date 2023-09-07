@@ -1,0 +1,18 @@
+.trial {
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin: 3rem 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.trial p {
+  margin: auto;
+  width: 80%;
+}
+
+.trial span {
+  font-weight: bold;
+}
