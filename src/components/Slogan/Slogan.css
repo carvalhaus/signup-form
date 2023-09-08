@@ -1,6 +1,8 @@
 .slogan {
   color: #fff;
+  margin: 2rem 0;
   text-align: center;
+  min-width: calc(375px - 2rem);
 }
 
 .slogan h1 {
