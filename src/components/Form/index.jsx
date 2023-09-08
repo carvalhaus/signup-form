@@ -4,7 +4,8 @@ const Form = () => {
   return (
     <form>
       <label>
-        <input type="text" placeholder="First Name" />
+        <input className="error" type="text" placeholder="First Name" />
+        <small className="error-message">First name cannot be empty</small>
       </label>
 
       <label>
@@ -21,7 +22,7 @@ const Form = () => {
 
       <button type="submit">Claim your free trial</button>
 
-      <small>
+      <small className="legend">
         By clicking the button you are agreeing to ours{" "}
         <a href="#">Terms and Services</a>
       </small>

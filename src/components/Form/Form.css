@@ -9,14 +9,44 @@ form {
   width: 100%;
 }
 
+form label {
+  text-align: end;
+}
+
 form input {
   border: 1px solid #d3d3d3;
-  border-radius: 0.5rem;
-  color: #747474;
+  border-radius: 0.275rem;
+  color: #474747;
   font-weight: bold;
   padding: 1rem;
   outline: none;
   width: 100%;
+}
+
+form input::placeholder {
+  color: #747474;
+}
+
+form input:focus {
+  border: 1px solid #8f8f8f;
+}
+
+form input.error {
+  border: 1px solid var(--red);
+  color: var(--red);
+  background-image: url(../../assets/icon-error.svg);
+  background-position: 95%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+form input.error::placeholder {
+  color: var(--red);
+}
+
+form .error-message {
+  color: var(--red);
+  font-style: italic;
 }
 
 form button {
@@ -31,7 +61,12 @@ form button {
   width: 100%;
 }
 
-form small {
+form button:hover {
+  opacity: 0.7;
+  transition: ease-in-out 200ms;
+}
+
+form .legend {
   color: #b8b8b8;
   font-size: 0.75rem;
   margin: auto;
@@ -39,7 +74,7 @@ form small {
   width: 85%;
 }
 
-form small a {
+form .legend a {
   color: var(--red);
   font-weight: bold;
   text-decoration: none;
