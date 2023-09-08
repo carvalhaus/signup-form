@@ -44,3 +44,9 @@ form small a {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+  form {
+    padding: 2rem;
+  }
+}

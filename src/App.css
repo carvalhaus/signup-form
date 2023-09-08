@@ -1,16 +1,25 @@
 #root {
+  align-items: center;
   background-color: var(--red);
   background-image: url("/src/assets/bg-intro-mobile.png");
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100%;
-
+  justify-content: center;
   padding: 2rem 1rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   #root {
+    background-image: url("/src/assets/bg-intro-desktop.png");
     height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #root {
+    flex-direction: row;
+    gap: 2rem;
   }
 }

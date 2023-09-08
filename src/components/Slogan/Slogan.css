@@ -12,3 +12,10 @@
 .slogan p {
   padding: 0 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .slogan {
+    text-align: start;
+    width: 520px;
+  }
+}
