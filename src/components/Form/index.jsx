@@ -11,6 +11,7 @@ const Form = () => {
   const onSubmit = (data) => {
     console.log(data);
     alert("Thank you for claim a free trial!");
+    window.location.reload();
   };
 
   return (
