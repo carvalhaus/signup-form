@@ -31,7 +31,7 @@ Build a responsive sign up form page with validations.
 ### Links
 
 - [Solution URL](https://github.com/carvalhaus/signup-form)
-- [Live Site URL](https://signup-form-rco8m53cd-carvalhaus.vercel.app/)
+- [Live Site URL](https://signup-form-carvalhaus.vercel.app/)
 
 ## My process
 
